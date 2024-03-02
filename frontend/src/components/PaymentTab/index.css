@@ -1,0 +1,53 @@
+/* Add this CSS to index.css */
+
+.payment-table {
+  margin-left: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payment-table th,
+.payment-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.payment-table th {
+  background-color: #f2f2f2;
+}
+
+.button-style {
+  margin-top: 20px;
+}
+
+.payments-tab-button {
+  height: 6vh;
+  width: 8vw;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.payments-tab-button:hover {
+  background-color: #262a27;
+}
+
+.payment-verification {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.payment-verification h1 {
+  color: #28a745;
+}
+.active {
+  background-color: #007bff; /* Change to your desired color */
+  color: #fff; /* Change to your desired color */
+}

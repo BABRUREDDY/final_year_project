@@ -1,0 +1,72 @@
+/* Add your custom styling for the form here */
+
+.form-container {
+  margin-top: -2vh !important;
+  padding: 10px;
+  background-color: #f4f7f6;
+  border-radius: 8px;
+  width: 82vw;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-table {
+  width: 100%;
+}
+
+.form-label {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.form-cell {
+  padding: 8px;
+}
+
+.form-input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.form-input-2106 {
+  width: 90% !important;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.form-input-gender {
+  width: 21% !important;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-panel-submit-btn {
+  height: 6vh;
+  width: 6vw;
+  background-color: rgb(5, 159, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}

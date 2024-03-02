@@ -1,0 +1,122 @@
+strong {
+  color: whitesmoke;
+}
+.std-logo {
+  background-color: rgb(255, 204, 0);
+  padding-left: 50px;
+}
+
+.bsp-button {
+  margin-top: 10px;
+  margin-left: 800px;
+  height: 6vh;
+  width: 6vw;
+  background-color: rgba(18, 165, 244, 0.885);
+  color: white;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.bsp-button:hover {
+  background-color: #000;
+  color: white;
+}
+
+.std-dd {
+  background-color: rgb(15, 23, 42);
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-img-bg {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+.sp-1 {
+  height: 100vh;
+  width: 20vw;
+  background-color: rgb(15, 23, 42);
+  border-top-right-radius: 20px;
+  color: #ddd;
+}
+.sp-2 {
+  height: 100vh;
+  padding: 15px;
+  width: 90vw;
+  background-color: rgb(241, 245, 249);
+}
+.bg {
+  background-image: url("data:image/jpeg;base64,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");
+}
+.sidebar {
+  width: 10vw; /* Adjust width as needed */
+  height: 100vh; /* Adjust height as needed */
+  background-color: transparent; /* Sidebar background color */
+  backdrop-filter: blur(10px);
+  padding: 20px; /* Padding around buttons */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar-button {
+  width: 10vw;
+  margin-bottom: 10px; /* Adjust button margin as needed */
+  padding: 10px 20px; /* Adjust button padding as needed */
+  background-color: #e77b38; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px; /* Adjust button border radius as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #777; /* Button background color on hover */
+}
+
+.student-main-page {
+  /* background-color: aqua; */
+}
+
+/* Student details table */
+.student-details-table {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.student-details-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-details-table td {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+
+.student-details-table .label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.student-details-table .value {
+  text-align: le;
+}
+
+.std-111 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid red !important;
+}
+
+.due-style {
+  color: white;
+  text-align: left;
+}
